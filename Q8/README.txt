@@ -1,0 +1,1 @@
+Run `npm install` and `npm run dev`. If you prefer the exact Vite scaffold command from the lab sheet, run `npm create vite@latest myreact -- --template react`, then replace its src/App.jsx with this file. Install React Developer Tools in the browser manually.

@@ -1,0 +1,1 @@
+export default function App(){return <main><h1>Production Build</h1><p>React application is running in StrictMode.</p></main>}

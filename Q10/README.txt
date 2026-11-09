@@ -1,0 +1,1 @@
+Run `npm install && npm run dev`. Inspect Elements while updating React and plain JavaScript counters. Note that React's Virtual DOM is an implementation strategy; browser DevTools alone does not prove every internal reconciliation step.

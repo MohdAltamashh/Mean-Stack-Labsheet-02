@@ -1,0 +1,1 @@
+export default function App(){return <main><h1>My First React App</h1><div className="card"><p><b>Name:</b> Mohd Altamash</p><p><b>Course:</b> MCA</p><p><b>College:</b> COER University</p></div></main>}

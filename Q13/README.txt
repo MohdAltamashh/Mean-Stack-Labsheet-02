@@ -1,0 +1,1 @@
+Run `npm install`, `npm run build`, then `npm run preview`. Inspect the generated dist folder and open the preview URL printed in the terminal. React.StrictMode is enabled in main.jsx.

@@ -1,0 +1,1 @@
+Run `npm install && npm run dev`. Open DevTools → Network, switch between Home/About/Contact and verify there is no full page navigation.

@@ -1,0 +1,1 @@
+Run `npm install && npm run dev`. Add several tasks and delete individual tasks. State is maintained using useState.

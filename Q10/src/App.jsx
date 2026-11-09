@@ -1,0 +1,5 @@
+import {useEffect,useState} from "react";
+function Counter(){const [count,setCount]=useState(0);return <section className="card"><h2>React Counter: {count}</h2><button onClick={()=>setCount(c=>c+1)}>Increment</button></section>}
+function Clock(){const [time,setTime]=useState(new Date());useEffect(()=>{const id=setInterval(()=>setTime(new Date()),1000);return()=>clearInterval(id)},[]);return <h2>Live Clock: {time.toLocaleTimeString()}</h2>}
+export default function App(){return <main><h1>Virtual DOM Demonstration</h1><Clock/><Counter/><p>Inspect Elements in DevTools while the clock/counter changes. React reconciles changes and updates the relevant DOM output.</p><PlainCounter/></main>}
+function PlainCounter(){function inc(){const el=document.getElementById("plain");el.textContent=String(Number(el.textContent)+1)}return <section className="card"><h2>Plain JavaScript Counter: <span id="plain">0</span></h2><button onClick={inc}>Increment</button></section>}

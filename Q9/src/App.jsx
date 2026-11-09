@@ -1,0 +1,3 @@
+import {useState} from "react";
+const pages={Home:<h2>Welcome to Home</h2>,About:<h2>About this SPA</h2>,Contact:<h2>Contact: info@example.com</h2>};
+export default function App(){const [page,setPage]=useState("Home");return <main><h1>Single Page Application</h1><nav>{Object.keys(pages).map(p=><button key={p} onClick={()=>setPage(p)}>{p}</button>)}</nav><section className="card">{pages[page]}</section><p>Open DevTools → Network. Switching views changes React state; it does not request a new document.</p></main>}

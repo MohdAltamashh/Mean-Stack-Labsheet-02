@@ -1,0 +1,1 @@
+Run `npm install && npm run dev`. Header, Footer and Card are separate components. Student values are passed as props and list items use stable keys.
